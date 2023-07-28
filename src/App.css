@@ -1,0 +1,8 @@
+.transaction-data-container {
+    height: 400px;
+    overflow: auto;
+}
+
+.transaction-data-scroll {
+    padding-right: 16px;
+}

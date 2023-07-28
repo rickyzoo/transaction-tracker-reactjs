@@ -1,0 +1,38 @@
+.top-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    z-index: 2;
+    background-color: lightgreen;
+  }
+
+  .logo-message {
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    color: darkgreen;
+  }
+
+  .image-section {
+    position: relative;
+    background-image: url('./backgroundimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.82;
+    width: 100%;
+}
+
+.image-section h1 {
+  position: relative;
+  bottom: 100px;
+  color: lightgoldenrodyellow;
+  font-size: 55px;
+}
